@@ -1,5 +1,4 @@
 +++
-author = 'Yihui Xie'
 categories = ['Example', 'Hugo']
 title = 'Introduction'
 weight = 1

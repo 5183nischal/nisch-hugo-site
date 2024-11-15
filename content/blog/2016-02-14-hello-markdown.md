@@ -5,6 +5,7 @@ date = '2016-02-14'
 subtitle = 'with a subtitle...'
 tags = ['blogdown', 'Markdown', 'KaTeX', 'Pandoc', 'RStudio']
 title = 'A Plain Markdown Post'
+draft = true
 +++
 
 ## Sample Text

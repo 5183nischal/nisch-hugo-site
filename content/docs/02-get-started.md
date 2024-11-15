@@ -1,5 +1,4 @@
 +++
-author = 'Yihui Xie'
 categories = ['Example']
 tags = ['Tutorial', 'blogdown', 'Hugo']
 title = 'Getting started'

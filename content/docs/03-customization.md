@@ -1,5 +1,4 @@
 +++
-author = 'Yihui Xie'
 categories = ['Example']
 tags = ['Tutorial']
 title = 'Customization'

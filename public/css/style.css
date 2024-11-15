@@ -1,10 +1,10 @@
 :root {
   --body-width: 992px;
-  --text-width: 620px;
-  --bg-body: white;
-  --bg-block: #f9f9f9;
-  --border-color: #ddd;
-  --box-shadow: 5px 5px 5px #eee;
+  --text-width: 720px;
+  --bg-body: #fbf7f0;
+  --bg-block: rgba(240, 216, 207, 0.3);
+  --border-color: rgba(110, 103, 143, 0.4);
+  --box-shadow: 5px 5px 5px #ffead8;
 }
 * {
   box-sizing: border-box;
@@ -27,12 +27,18 @@ body {
   display: flex;
   justify-content: space-between;
 }
+/* Add opacity to blog meta */
+.meta-line {
+    opacity: 0.6;
+    margin-top: 1.3rem;
+    margin-bottom: 2.3rem
+}
 .home + footer > .nav-bottom {
   display: block;
 }
 .nav-top {
   margin-bottom: 1em;
-  border-bottom: 1px solid  rgba(0, 0, 0, 0.7);
+  border-bottom: 1px solid;
 }
 .logo {
   font-weight: bold;
@@ -40,11 +46,11 @@ body {
 }
 .logo img {
   display: none;
-  max-height: 4.2rem;
+  max-height: 3rem;
   position: absolute;
-  top: 2.3em;
-  margin-left: -0.15em;
-  opacity: .1;
+  top: 2.5em;
+  margin-left: 0em;
+  opacity: 0.5;
 }
 .menu {
   text-transform: uppercase;
@@ -55,6 +61,7 @@ body {
 }
 .menu .active {
   border-bottom: 5px solid;
+  border-color: #40141f;
   margin-bottom: -5px;
 }
 .menu .optional {
@@ -99,7 +106,7 @@ pre code, pre code:hover {
 a {
   text-decoration: none;
   border-bottom: 1px dashed;
-  color: initial;
+  color: #005077;
 }
 @media (hover: hover) and (pointer: fine) {
   :not(.logo) > a:hover {
@@ -118,10 +125,12 @@ nav a, footer a, .archive a, sup a {
 }
 .single .main h2 {
   border-bottom: 1px solid var(--border-color);
+  color: #184034;
 }
 .single .main h3 {
   font-variant: small-caps;
   text-align: center;
+  color: #093060;
 }
 li {
   margin: 4px 0;
@@ -153,7 +162,8 @@ blockquote, .toc-list, .toc-list ul {
   padding: 3px 1em 3px;
 }
 .post-nav {
-  margin-top: 1rem;
+  margin-top: 2rem;
+  opacity:0.7;
 }
 .post-nav span {
   width: calc(50% - 1em);
@@ -215,8 +225,8 @@ h1.title::before {
   font-style: normal;
   font-weight: normal;
   font-size: 6em;
-  color: var(--border-color);
-  opacity: .2;
+  color: #5d3026;
+  opacity: .05;
   position: absolute;
   inset: -.15em 0;
   z-index: -1;
@@ -235,9 +245,9 @@ h1.title::before {
 .terms li, .term {
   margin-left: 2em;
 }
-.term-cat + .term-tag::before {
-  content: " · ";
-}
+/* .term-cat + .term-tag::before { */
+/*   content: " · "; */
+/* } */
 
 @media (min-width: 768px) {
   body {
@@ -306,33 +316,19 @@ h1.title::before {
     white-space: pre;
   }
 }
-
 @media (prefers-color-scheme: dark) {
-  :root {
-    --bg-body: #dedad6;
-    --bg-block: #d6d1cc;
-    --border-color: #999;
-    --box-shadow: 5px 5px 5px #ccc;
-  }
-  /* html, img, video, iframe { */
-  /*   filter: invert(1); */
+  /* :root { */
+  /*   --bg-body: #fbf7f0; */
+  /*   --bg-block: rgba(240, 216, 207, 0.4); */
+  /*   --border-color: rgba(110, 103, 143, 0.2); */
+  /*   --box-shadow: 5px 5px 5px #ffead8; */
   /* } */
-  html {
-    filter: invert(1);
-  }
 
-  /* Un-invert all images except the logo */
-  img:not(.logo img) {
-    filter: invert(1);
+  h1.title::before {
+    content: "❧";
+    opacity: .1;
   }
-
-  /* Ensure the logo stays inverted */
-  .logo img {
-    filter: none !important;
-  }
-
-  /* Un-invert videos and iframes if needed */
-  video, iframe {
+  html, img, video, iframe {
     filter: invert(1);
   }
 }

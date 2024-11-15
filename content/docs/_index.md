@@ -1,8 +1,9 @@
 +++
-title = 'Documentation'
-
-[menu]
-  [menu.main]
-    name = 'Docs'
-    weight = 3
+title = 'Notes'
 +++
+
+<!-- [menu] -->
+<!--   [menu.main] -->
+<!--     name = 'Notes' -->
+<!--     weight = 3 -->
+<!-- +++ -->
