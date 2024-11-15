@@ -6,7 +6,7 @@
     <description>Recent content in Home on Nisch&#39;s homepage</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction</title>
@@ -28,6 +28,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/docs/03-customization/</guid>
       <description>The more you know, the less real work you will get done. You have been warned.&#xA;Site config In your site config file (hugo.yaml or config.yaml), you can customize some options such as the top menu or footer, which should be straightforward to understand if you take a look at the exampleSite&amp;rsquo;s config file.&#xA;If you want to add a logo to the left of the top navigation bar, you can use the logo parameter, e.</description>
+    </item>
+    <item>
+      <title>Notes on properties of Gaussian process neural code</title>
+      <link>//localhost:1313/blog/gp-code-notes/</link>
+      <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/gp-code-notes/</guid>
+      <description>These are notes on properties of Gaussian processes relevant to their study as models of neural representations in the brain. These ideas and techniques were used in our work on statistics of place fields measured across a few different animal species, while they were navigating small and large environments of dimensions 1, 2, and 3. In the work, we showed the observed neural representations can be well explained in terms of threshold crossings of a Gaussian process, and these notes include how one can study structure of such threshold crossings of Gaussian process.</description>
     </item>
     <item>
       <title>About Hugo Paged</title>

@@ -6,7 +6,22 @@
     <description>Recent content in Categories on Nisch&#39;s homepage</description>
     <generator>Hugo</generator>
     <language>en-US</language>
+    <lastBuildDate>Fri, 15 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Notes</title>
+      <link>//localhost:1313/categories/notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/categories/notes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pdf</title>
+      <link>//localhost:1313/categories/pdf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/categories/pdf/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Example</title>
       <link>//localhost:1313/categories/example/</link>

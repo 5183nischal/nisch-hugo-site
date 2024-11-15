@@ -7,21 +7,21 @@ title = 'Home'
 +++
 
 <style type="text/css">
-<!-- .home { -->
-<!--   text-align: center; -->
-<!-- } -->
 .home h1 {
   font-size: 2em;
   font-style: normal;
 }
+
 .home h2 {
   font-style: italic;
   font-weight: normal;
 }
+
 .home h3 {
-  padding-right: 18em;
   font-weight: normal;
+  padding-right: 18em;
 }
+
 .profile-image {
   position: absolute;
   top: 10.5em;
@@ -29,7 +29,7 @@ title = 'Home'
   width: 18em;
   height: auto;
   object-fit: cover;
-  margin-right:3.7em;
+  margin-right: 3.7em;
   border-radius: 10px;
 }
 
@@ -47,23 +47,68 @@ title = 'Home'
 }
 
 .publications a {
-  color: #000000; /* Your link color */
+  color: #000000;
   text-decoration: none;
-  border-bottom: 1px solid transparent; /* Invisible underline initially */
+  border-bottom: 1px solid transparent;
   padding: 2px 4px;
   transition: color 0s, background-color 0s, border-bottom 0s;
 }
 
 .publications a:hover {
   color: white;
-  background-color: #005077; /* Same as original link color */
+  background-color: #005077;
 }
 
-/* Override any global hover styles that might cause movement */
 .publications a:hover {
   position: static;
   inset: auto;
 }
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 768px) {
+  .home h3 {
+    padding-right: 0;
+    margin-bottom: 20em; /* Space for the image below */
+  }
+
+  .profile-image {
+    position: relative;
+    top: auto;
+    right: auto;
+    width: 100%;
+    max-width: 18em;
+    margin: 1em auto;
+    display: block;
+  }
+
+  .publications {
+    margin-top: 1em;
+  }
+
+  .publications a {
+    display: block;
+    padding: 0.5em 0;
+  }
+}
+
+/* For very small screens */
+@media screen and (max-width: 480px) {
+  .home h1 {
+    font-size: 1.5em;
+  }
+
+  .home h2 {
+    font-size: 1.2em;
+  }
+
+  .home h3 {
+    font-size: 1em;
+    margin-bottom: 15em;
+  }
+
+  .profile-image {
+    max-width: 15em;
+  }
 }
 </style>
 
