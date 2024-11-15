@@ -1,4 +1,4 @@
-baseURL = 'https://nisch.github.io/'
+baseurl = "/"
 languageCode = "en-US"
 title = "Nisch's homepage"
 theme = "hugo-paged"
