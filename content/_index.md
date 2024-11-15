@@ -68,7 +68,7 @@ title = 'Home'
 @media screen and (max-width: 768px) {
   .home h3 {
     padding-right: 0;
-    margin-bottom: 20em; /* Space for the image below */
+    margin-bottom: 1em; /* Reduced from 20em to 1em */
   }
 
   .profile-image {
@@ -103,7 +103,7 @@ title = 'Home'
 
   .home h3 {
     font-size: 1em;
-    margin-bottom: 15em;
+    margin-bottom: 1em; /* Reduced from 15em to 1em */
   }
 
   .profile-image {
