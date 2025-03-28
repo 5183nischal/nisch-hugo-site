@@ -8,7 +8,7 @@ title = 'Home'
 
 <style type="text/css">
 .home h1 {
-  font-size: 2em;
+  font-size: 1.8em;
   font-style: normal;
 }
 
@@ -115,16 +115,40 @@ title = 'Home'
 <h1 class="title">Nischal Mainali</h1>
 
 <h3>
-Hi, I'm Nischal and I am a PhD candidate in neuroscience at the Burak lab in the Hebrew university of Jerusalem.
-I am interested in mathematical theories of cognition and understanding representational properties of biological and artificial minds.
+
+Hi, I'm Nisch, a PhD candidate in Neuroscience at the Burak lab in the Hebrew University of Jerusalem.
+I am interested in mathematical theories of cognition and understanding the representational properties of biological and artificial minds.
+
+Here is my <a href="/pdfs/cv.pdf">cv</a>.
+
 </h3>
 
 <img src="nisch.jpg" alt="Nischal Mainali" class="profile-image">
 <div class="publications">
-  <h2> Recent works</h2>
+  <h2>Selected works</h2>
   <ul>
-    <li><a href="#">❡ Mainali, N (<i>WIP</i>). "Solvable model of in-context learning in linear transformers."</a></li>
-    <li><a href="https://www.biorxiv.org/content/10.1101/2024.06.11.597569v1">❡ Mainali, N., da Silveira, R., Burak, Y. (2024). "Universal statistics of hippocampal place fields across species and dimensionalities."</a></li>
-    <li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3205286">❡ Mainali, et al. (2018). "Automated Classification of Modes of Moral Reasoning in Judicial Decisions."</a></li>
+    <li>
+      <a href="#">
+        ❡ Mainali, N (<i>WIP</i>). "Solvable model of in-context learning in linear transformers."
+      </a>
+    </li>
+    <li>
+      <a href="https://www.cell.com/neuron/fulltext/S0896-6273(25)00043-1">
+        ❡ Mainali, N., da Silveira, R., Burak, Y. (2025). "Universal statistics of hippocampal place fields across species and dimensionalities."
+      <i>Neuron</i>
+      </a>
+    </li>
+    <li>
+      <a href="https://iopscience.iop.org/article/10.1088/1742-5468/ad3a60/meta">
+        ❡ Behrens, F., Mainali, N., et al. (2024). "Statistical mechanics of deep learning."
+      <i>Journal of Statistical Mechanics: Theory and Experiment</i>
+      </a>
+    </li>
+    <li>
+      <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3205286">
+        ❡ Mainali, et al. (2018). "Automated Classification of Modes of Moral Reasoning in Judicial Decisions."
+      <i>Computational Legal Studies</i>
+      </a>
+    </li>
   </ul>
 </div>
