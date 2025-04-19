@@ -128,8 +128,10 @@ Here is my <a href="/pdfs/cv.pdf">cv</a>.
   <h2>Selected works</h2>
   <ul>
     <li>
-      <a href="#">
-        ❡ Mainali, N (<i>WIP</i>). "Solvable model of in-context learning in linear transformers."
+      <a href="https://arxiv.org/abs/2504.12916">
+        ❡ Mainali, N., Teixeria, L. (2025). "
+Exact Learning Dynamics of In-Context Learning in Linear Transformers and Its Application.
+"
       </a>
     </li>
     <li>
